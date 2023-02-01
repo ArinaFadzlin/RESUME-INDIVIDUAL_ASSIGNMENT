@@ -1,0 +1,294 @@
+
+body
+{
+    background-image: url(https://i.pinimg.com/564x/84/87/db/8487db08e2cf3a037f5cbfdb989c4ae9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+} 
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav
+{
+    width: 100%;
+    height: 60px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background: linear-gradient(rgb(231, 125, 125),white);
+}
+
+nav .logo p
+{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color:black;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+ nav ul
+{
+    float: right;
+}
+
+ nav li
+{
+    display: inline-block;
+    list-style: none;
+}
+ nav li a
+{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: black;
+    text-decoration: none;
+}
+nav li a:hover
+{
+    color:aliceblue;
+    transition: all 0.4 ease 0;
+}
+.content .par
+{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.content h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    
+}
+
+.image{
+    flex: 1 1 40rem;
+}
+.IMGARINA1
+{
+    width: 300px;
+    height: 300px;
+    margin-top: 0.5%;
+    position: absolute;
+    right: 30%;
+    position: fixed;
+    top: 30%;
+    transform: translate(50%, -50);
+    border-radius: 20%;
+    
+}
+
+            
+
+
+.image{
+    flex: 1 1 40rem;
+}
+.IMGARINA2{
+    width: 300px;
+    height: 300px;
+    margin-top: 0.5%;
+    position: absolute;
+    right: 18%;
+    position: fixed;
+    top: 20%;
+    transform: translate(50%, -50);
+    border-radius: 20%;
+}
+
+.center
+{   margin: auto;
+    width: 50;
+    border: 3px solid;
+    padding: 10px;
+    text-align: center;
+}
+
+table, tr, td, th
+{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+table.contoh
+{
+    border-collapse: collapse;
+    border: 1px solid red;
+}
+
+tr
+{
+    background-color: gainsboro;
+}
+
+th
+{
+    background-color: ghostwhite;
+}
+
+tr:nth-child(odd)
+{
+    background-color: ghostwhite;
+}
+
+tr:hover
+{
+    background-color: gold;
+}
+
+div.menu
+{
+    float:left;
+    height: 200px;
+    width: 75%;
+    background-color: bisque;
+}
+div.slider
+{
+    float:left;
+    width:25%;
+    height: 400px;
+    background-color: burlywood;
+    text-align: center;
+}
+div.kotak1
+{
+    float:left;
+    width: 25px;
+    height: 400px;
+    background: blueviolet;
+}
+div.kotak2
+{
+    float:left;
+    width: 25px;
+    height: 400px;
+    background: chocolate;
+}
+
+div.kotak3
+{
+    float:left;
+    width: 25px;
+    height: 400px;
+    background: darkgreen;
+}
+
+div.kotak4
+{
+    float:left;
+    width: 25px;
+    height: 400px;
+    background: maroon;
+}
+
+div.content
+{
+    float:left;
+    width: 100%;
+    height: 500px;
+}
+
+div.copyright
+{
+    float:left;
+    width: 1oopx;
+    height: 80px;
+    background-color: dimgray;
+}
+
+ul
+{
+    list-style-type: square;
+}
+
+ol
+{
+    list-style-type: lower-roman;
+}
+
+.footer {
+    width: 100%;
+    background-color: rgb(231, 125, 125);
+    display: flex;
+    justify-content: center;
+    padding: 0.5%;
+    align-items: center;
+    text-align: justify;
+    bottom: 0;
+    width: 100%;
+    height: 5vh;
+    position:fixed;
+    left: 0;
+    
+}
+
+.footer p 
+{
+color: black;
+size: 12px;
+margin-bottom: 25%;
+
+}
+
+.button{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    align-items: center;
+    bottom: 120%;
+    right: 1%;
+
+}
+.button a i{
+    font-size: 25px;
+    color: rgb(88, 13, 37);
+    transition: 0.3s;
+    
+}
+
+
+.button a i:hover{
+    
+    color:pink;
+}
+
+
+div.gallery {
+  margin: px;
+  border: 1px  rgb(125, 50, 50);
+  float: left;
+  width: 150px;
+}
+
+div.gallery:hover {
+  border: 3px  black;
+}
+
+div.gallery img {
+  width: 125px;
+  height: 200px;
+  float: right;
+  border-radius: 20%;
+}
+
+div.desc {
+  padding: 40px;
+  text-align:start;
+  white-space: normal;
+}
